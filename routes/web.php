@@ -22,3 +22,11 @@ Route::get('/hello/{name}', fn(string $name) => 'Hello, {$name}');
 Route::get('/welcome', function () {
     return 'Welcome';
 });
+
+Route::get('/info', function () {
+    return 'Info';
+});
+
+Route::get('/news', function () {
+    return 'News';
+});

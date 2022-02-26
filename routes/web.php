@@ -17,7 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello/{name}', fn(string $name) => 'Hello, {$name}');
+Route::get('/hello/{name}', function ($id) {
+    return 'Hello, '.$id;
+});
 
 Route::get('/welcome', function () {
     return 'Welcome';

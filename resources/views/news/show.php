@@ -1,4 +1,5 @@
 <div class="news">
+        <! HW 3. Blade >
         <h3><?=$news['title']?></h3>
         <img src="<?=$news['image']?>">
         <br>

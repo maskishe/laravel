@@ -7,7 +7,7 @@ use App\Http\Controllers\Admin\NewsController as AdminNewsController;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Web Routes HW4 ToDo
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
